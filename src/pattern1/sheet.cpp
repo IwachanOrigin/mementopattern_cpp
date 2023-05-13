@@ -105,6 +105,7 @@ void Sheet::addStack()
   {
     //std::list<std::list<Cell*> *>::iterator itCells = m_stack.begin();
     auto itCells = m_stack.begin();
+    // ref: https://cpprefjp.github.io/reference/iterator/advance.html
     std::advance(itCells, (m_stack.size() - 1));
 
     // Delete cells object before delete Sheet objects
