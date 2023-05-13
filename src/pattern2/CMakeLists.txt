@@ -1,11 +1,13 @@
 
-project(pattern1 CXX)
+project(pattern2 CXX)
 
 set(MAIN_SRC
   cell.h
+  cellmemento.h
+  cellmemento.cpp
   main.cpp
-  sheet.cpp
-  sheet.h
+  sheetwithmemento.cpp
+  sheetwithmemento.h
 )
 
 add_executable(
